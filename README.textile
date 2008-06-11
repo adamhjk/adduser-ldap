@@ -1,0 +1,19 @@
+h2. To use adduser-ldap
+
+You will need the ruby-ldap and highline libraries.
+
+Ruby LDAP can be found at:
+
+http://ruby-ldap.sourceforge.net/
+
+Highline can be installed through rubygems:
+
+$ gem install highline 
+
+Stick the config.yml in /etc/adduser-ldap, and edit it for your site.
+
+Then, use ./adduser-ldap like you would any regular adduser program.
+
+By default, it will bind as the user running it, so they should have
+administrative privileges to the directory.
+

@@ -1,9 +1,9 @@
-server: admin.ilike.com
+server: admin.example.com
 port: 389
 starttls: true
-basedn: ou=people,dc=ilike,dc=com
+basedn: ou=people,dc=example,dc=com
 rdn: uid
 uidnumber_filter: '(uidNumber=*)'
 gidnumber_default: 301
 loginshell_default: /bin/bash
-homedir_base: /srv/home
+homedir_base: /home
